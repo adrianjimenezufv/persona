@@ -6,12 +6,7 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
 
-    public Persona(String nombre, String apellidos, int dniSinLetra, int edad) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.dniSinLetra = dniSinLetra;
-        this.edad = edad;
-    }
+    public Persona() {}
 
     public String getNombre() {
         return nombre;
