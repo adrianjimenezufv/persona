@@ -26,6 +26,7 @@ public class InOut {
                 persona.setEdad(Integer.parseInt(cadena));
             }
             System.out.println(cadena);
+            i++;
         }
         b.close();
         return persona;
